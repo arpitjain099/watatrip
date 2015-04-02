@@ -13,13 +13,15 @@ for i in f:
 	trainnumber=i.split(",")[2]
 	date=i.split(",")[3]
 	url="http://api.railwayapi.com/check_seat/train/"+str(trainnumber)+"/source/"+str(start)+"/dest/"+str(end)+"/date/"+str(date)+"/class/3A/quota/GN/apikey/44538/"
-	print url	
+	print url
+	daata= os.system("curl "+url)	
 	files = wget.download(url,out="dump/myFile.txt")
-	fa=codecs.open("dump/myFile.txt","r",encoding='utf-8')
-	daata=fa.read()
-	fa.close()
+	#fa=codecs.open("dump/myFile.txt","r",encoding='utf-8')
+	#daata=fa.read()
+	#fa.close()
+	print daata
 	a=json.loads(daata)
-	os.remove("dump/myFile.txt")
+	#os.remove("dump/myFile.txt")
 	for j in range(6):
 			
 		fi.write(a['availability'][j]['date']+","+a['availability'][j]['status']+"\n")
