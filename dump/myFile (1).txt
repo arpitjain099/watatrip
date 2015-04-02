@@ -1,0 +1,52 @@
+{
+    "error": false,
+    "from": {
+        "name": "BANDRA TERMINUS",
+        "code": "BDTS",
+        "lat": 19.0635747,
+        "lng": 72.84047029999999
+    },
+    "response_code": 200,
+    "quota": {
+        "quota_name": "GENERAL QUOTA",
+        "quota_code": "GN"
+    },
+    "class": {
+        "class_code": "3A",
+        "class_name": "THIRD AC"
+    },
+    "train_number": "19019",
+    "to": {
+        "name": "H NIZAMUDDIN",
+        "code": "NZM",
+        "lat": 28.589,
+        "lng": 77.2535
+    },
+    "availability": [
+        {
+            "status": "GNWL28/WL10",
+            "date": "4-4-2015"
+        },
+        {
+            "status": "GNWL23/WL4",
+            "date": "5-4-2015"
+        },
+        {
+            "status": "GNWL10/WL7",
+            "date": "6-4-2015"
+        },
+        {
+            "status": "GNWL10/WL5",
+            "date": "7-4-2015"
+        },
+        {
+            "status": "GNWL13/WL6",
+            "date": "8-4-2015"
+        },
+        {
+            "status": "GNWL9/WL7",
+            "date": "9-4-2015"
+        }
+    ],
+    "train_name": "DEHRADUN EXP"
+}
