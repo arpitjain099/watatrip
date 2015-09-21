@@ -1,0 +1,5 @@
+padding: 13px 15px; (248)
+
+padding: 15px 35px; (105)
+
+{{ $flight->from1}} {{ Form::hidden('from1',$flight->from1)}} - {{ $flight->to1}} {{ Form::hidden('to1',$flight->to1)}}

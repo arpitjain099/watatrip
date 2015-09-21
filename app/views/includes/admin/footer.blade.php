@@ -1,0 +1,1 @@
+<strong>Copyright &copy; 2015-2016 <a href="#">WATaTRIP</a>.</strong> All rights reserved.

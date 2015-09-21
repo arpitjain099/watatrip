@@ -1,0 +1,25 @@
+Pending tasks
+
+FronT End
+
+Auto Suggest
+Remove Testimonial
+FAQ
+What is WAT spruce up
+Chances computation
+Date field
+Inside page menu
+
+Back End
+Rail status
+Box values
+Flight data for next month
+Entering correct lfight data
+Most active sectors
+Price Scraping
+WAT Price calculation
+preventing overflow
+add flights page to have existing flights
+approve all or some
+-1 in browse bookings
+account page and login
